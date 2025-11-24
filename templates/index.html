@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HubCloud Link Extractor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>HubCloud Extractor</h1>
+            <p>Get direct download links instantly.</p>
+        </header>
+        
+        <main>
+            <div class="input-group">
+                <input type="text" id="urlInput" placeholder="Paste HubCloud URL here..." autocomplete="off">
+                <button id="extractBtn">Extract</button>
+            </div>
+            
+            <div id="message" class="message"></div>
+            
+            <div id="results" class="results-container">
+                <!-- Results will be injected here -->
+            </div>
+        </main>
+        
+        <footer>
+            <p>Powered by Antigravity</p>
+        </footer>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

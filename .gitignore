@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask
+instance/
+.webassets-cache
+
+# Environment variables
+.env
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+debug_*.html
+debug_*.json
+*.png
+*.webp
+intermediate_page.html
+gdflix_page.html
+hubdrive_ajax_response.json
+redirect_url.txt
+test_hubdrive_ajax.py
+check_redirect.py
+debug_hubdrive.py
+debug_urls.py
+trigger_extract.py
+
+# Vercel
+.vercel
